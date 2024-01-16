@@ -1,0 +1,25 @@
+containers: {
+    umami: {
+        image: "ghcr.io/umami-software/umami:postgresql-latest"
+        ports: publish: "3000/http"
+        env: {
+            DATABASE_URL: "postgresql://@{service.postgres.secrets.admin.username}:@{service.postgres.secrets.admin.password}@postgres:5432/@{service.postgres.data.dbName}"
+            DATABASE_TYPE: "postgresql"
+            APP_SECRET: "secret://umami/token"
+        }
+        consumes: ["postgres"]
+        memory: 1Gi
+    }
+}
+
+services: postgres: {
+    image: "ghcr.io/acorn-io/postgres:v15.#-#"
+}
+
+secrets: "umami": {
+    type: "token"
+    params: {
+        length: 32
+        characters: "abcdedfhifj01234567890"
+    }
+}
