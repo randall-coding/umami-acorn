@@ -5,7 +5,6 @@ Umami is a lightweight, privacy-focused, open-source analytics solution designed
 
 For simplicity, we'll deploy our Umami server using an acorn image.
 
-
 ## What is Acorn?
 Acorn is a new cloud platform that allows you to easily deploy, develop and manage web services with containerization.  A single acorn image can deploy all that you need: from a single container webserver, to a multi service Kubernetes cluster with high availability.  Don't worry if you don't understand what all those terms mean; we don't have to know that in order to deploy our server.
 
@@ -58,14 +57,14 @@ Click on the umami deployment, and find the endpoint section on the right side p
 
 ## Configure Umami
 
-Go to your acorn umami URL. Then you'll be on Umami's login page. Use the default login credentials to login to your admin account:
+Go to your acorn umami URL. You'll see Umami's login page. Use the default login credentials to login to your admin account:
 
 - Username: `admin`
 - Password: `umami`
 
 <img width="368" src="https://github.com/randall-coding/umami-acorn/assets/39175191/d043beae-2f50-44fa-8465-1220491e76fe">
 
-After logging into your account, you can easily update the admin password by navigating to the `Settings` page. From there, select `Profile` in the left navigation bar and click on "Change Password."
+After logging into your account, you can update the admin password by clicking the profile widget in the top left nav bar and selecting `Profile`. On the Profile page click on "Change Password."
 
 <img width="524" src="https://github.com/randall-coding/umami-acorn/assets/39175191/15d6c9b5-a8a8-4654-a656-5cd1cbdde608">
 
@@ -73,16 +72,14 @@ Create a new website by accessing the `Settings` page and navigating to the `Web
 
 <img width="530"  src="https://github.com/randall-coding/umami-acorn/assets/39175191/96ab80fc-797f-4c8a-a989-569f166c9512">
 
-Once you've added your website, retrieve the tracking code by clicking the "Edit" button beside your listed website. Then, visit the "Tracking code" tab, copy the snippet provided, and paste it into the header of your website.
+Once you've added your website, retrieve the tracking code by clicking the "Edit" button beside your listed website. Click the "Tracking code" tab and copy the snippet provided to paste it into the header of your target website.
 
 <img width="558" src="https://github.com/randall-coding/umami-acorn/assets/39175191/5a928219-7d0a-4874-a639-13f68b8bda9a">
 
 Now you're ready to watch analytics about your site on the Umami's Dashboard.
 
-Congratulations! The Umami installation is now complete.
-
 ## Conclusion
-That's all there is to it.  We've now got a Umami server up and running from an acorn image.
+That's all there is to it.  We've now got an Umami server up and running from an acorn image.
 For more detailed instructions on working with your Umami server see the Umami documentation.
 
 ## References
