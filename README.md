@@ -52,9 +52,9 @@ Visit your acorn dashboard to see if your deployment was successful.
 
 Click on the umami deployment, and find the endpoint section on the right side panel.  This is your umami instance link.
 
-![baserow_acorn_ui]()
+![umami_acorn_ui](https://github.com/randall-coding/umami-acorn/assets/39175191/b6c16765-f4f0-4913-a4f6-bebf670697e4)
 
-![baserow_endpoint]()
+![umami_endpoints](https://github.com/randall-coding/umami-acorn/assets/39175191/8c5580d6-d2a2-4804-9222-19aeee22a241)
 
 ## Configure Umami
 
@@ -63,19 +63,19 @@ Go to your acorn umami URL. Then you'll be on Umami's login page. Use the defaul
 - Username: `admin`
 - Password: `umami`
 
-<img width="368" alt="image" src="">
+<img width="368" src="https://github.com/randall-coding/umami-acorn/assets/39175191/d043beae-2f50-44fa-8465-1220491e76fe">
 
 After logging into your account, you can easily update the admin password by navigating to the `Settings` page. From there, select `Profile` in the left navigation bar and click on "Change Password."
 
-<img width="524" alt="image" src="">
+<img width="524" src="https://github.com/randall-coding/umami-acorn/assets/39175191/15d6c9b5-a8a8-4654-a656-5cd1cbdde608">
 
 Create a new website by accessing the `Settings` page and navigating to the `Websites` tab.
 
-<img width="530" alt="image" src="">
+<img width="530"  src="https://github.com/randall-coding/umami-acorn/assets/39175191/96ab80fc-797f-4c8a-a989-569f166c9512">
 
 Once you've added your website, retrieve the tracking code by clicking the "Edit" button beside your listed website. Then, visit the "Tracking code" tab, copy the snippet provided, and paste it into the header of your website.
 
-<img width="558" alt="image" src="">
+<img width="558" src="https://github.com/randall-coding/umami-acorn/assets/39175191/5a928219-7d0a-4874-a639-13f68b8bda9a">
 
 Now you're ready to watch analytics about your site on the Umami's Dashboard.
 
