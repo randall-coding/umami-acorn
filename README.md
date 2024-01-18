@@ -1,7 +1,7 @@
 # Launch your own Umami server
 
 ## Umami
-Umami is a lightweight, privacy-focused, open-source analytics solution designed for website usage tracking. It stands out as a superior alternative to platforms like Google Analytics, offering users complete control over their data while maintaining a high level of performance and simplicity in implementation.
+[Umami](https://umami.is) is a lightweight, privacy-focused, open-source analytics solution designed for website usage tracking. It stands out as a superior alternative to platforms like Google Analytics, offering users complete control over their data while maintaining a high level of performance and simplicity in implementation.
 
 For simplicity, we'll deploy our Umami server using an acorn image.
 
